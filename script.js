@@ -254,13 +254,21 @@ function initMobileNav() {
   const navLinks = document.querySelector(".nav-links");
 
   if (toggle && navLinks) {
+    const icon = toggle.querySelector(".material-symbols-outlined");
+
     toggle.addEventListener("click", () => {
-      navLinks.classList.toggle("active");
+      const isActive = navLinks.classList.toggle("active");
+      if (icon) {
+        icon.textContent = isActive ? "close" : "menu";
+      }
     });
 
     document.querySelectorAll(".nav-link").forEach(link => {
       link.addEventListener("click", () => {
         navLinks.classList.remove("active");
+        if (icon) {
+          icon.textContent = "menu";
+        }
       });
     });
   }
