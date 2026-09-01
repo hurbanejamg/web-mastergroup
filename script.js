@@ -77,18 +77,18 @@ const BRANDS_DATA = {
     id: "camposanto",
     name: "Campo Santo",
     category: "huerta",
-    categoryLabel: "Cocina de Huerta & Hortalizas",
+    categoryLabel: "Siembra & Motor de Suministro Interno",
     image: "assets/campo-santo/cover.jpg",
-    concept: "Gastronomía de Autor Basada en Hortalizas & Cultivo Local",
-    tagline: "2 flagships operando desde 2022, especializados en cocina de huerta.",
-    description: "Campo Santo opera 2 flagships desde 2022. Cocina de huerta con hortalizas de cultivo local, cosechadas a diario, y técnicas de fermentación y ahumado vegetal propias.",
+    concept: "Suministro Agrícola Estratégico & Cadena de Valor",
+    tagline: "El factor diferenciador operativo que comienza desde la raíz.",
+    description: "En el dinámico y exigente escenario gastronómico de Caracas, el factor diferenciador operativo comienza desde la raíz. Campo Santo nace originalmente como una respuesta estratégica para abastecer las necesidades gastronómicas de los restaurantes pertenecientes a Master Group, entendiendo sus dinámicas económicas y ajustándose a sus necesidades para generar valor diferenciador dentro de las cadenas de suministro tradicionales.\n\nEntendemos que, en el mundo de los alimentos, la ejecución no solo debe ser precisa, sino también ágil y proactiva. Nuestra siembra se consolidó como el motor de suministro interno, perfeccionando un modelo de gestión donde el tiempo y la calidad son tratados como los activos más valiosos de la cadena de valor.",
     highlights: [
-      "Cosecha diaria de hortalizas orgánicas de agricultores locales aliados.",
-      "Fermentación casera, ahumado vegetal al carbón y deshidratación propios.",
-      "Carta vegetal de temporada con aceites infusionados propios."
+      "Siembra propia consolidada como motor de suministro interno de Master Group.",
+      "Abastecimiento ágil, fresco y proactivo adaptado a las dinámicas de cada marca.",
+      "Modelo de gestión optimizado donde el tiempo y la calidad generan valor diferenciador."
     ],
-    tags: ["Cocina de Huerta", "Hortalizas Frescas", "Farm-to-Table", "Orgánico & Botánico"],
-    stats: { locations: "2 Flagships", capacity: "160 Asientos", foundation: "2022" }
+    tags: ["Siembra Propia", "Suministro Interno", "Cadena de Valor", "Control de Calidad"],
+    stats: { locations: "Producción Agrícola", capacity: "Suministro Directo", foundation: "Motor Interno" }
   }
 };
 
