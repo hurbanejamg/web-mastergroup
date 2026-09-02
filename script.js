@@ -9,86 +9,86 @@ const BRANDS_DATA = {
     id: "beijing",
     name: "Beijing Asian Cuisine",
     category: "asiatica",
-    categoryLabel: "Alta Cocina Asiática",
+    categoryLabel: "Cocina Asiática · Marca Principal",
     image: "assets/beijing/cover.jpg",
-    concept: "Inmersión Gastronómica Asiática de Autor",
-    tagline: "3 restaurantes operando desde 2018, especializados en cocina china, japonesa y del sudeste asiático.",
-    description: "Beijing Asian Cuisine opera 3 restaurantes desde 2018. Cocina china, japonesa y del sudeste asiático, con dim sum elaborado a diario y pato pekín preparado en horno de asado tradicional.",
+    concept: "Cocina Asiática en Tres Modelos Operativos",
+    tagline: "12 sedes activas: 5 Bar Rest, 6 Express y operación centralizada To Go.",
+    description: "Beijing Asian Cuisine es la marca más grande del holding. Opera bajo tres formatos estructurados según el momento de consumo: Beijing Bar Rest (restaurantes de servicio a la mesa, experiencia de lujo y ambiente familiar), Beijing Express (ferias de comida en centros comerciales, con servicio ágil y precios accesibles manteniendo el estándar de calidad Beijing) y Beijing To Go (delivery para todas las sedes, respaldado en la dark kitchen de San Bernardino).",
     highlights: [
-      "Dim Sum elaborado a diario en cocina propia.",
-      "Pato Pekín preparado en hornos de asado tradicional.",
-      "Carta de mixología con botánicos orientales y tés."
+      "Bar Rest (5 sedes): La Tahona (sede matriz), La Boyera, Los Naranjos, Altamira y Lechería.",
+      "Express (6 sedes en ferias de CC): Millennium, Chacao, El Recreo, Sambil La Candelaria, Multiplaza El Paraíso y Sambil Barquisimeto.",
+      "To Go: Dark kitchen central en San Bernardino y despacho a domicilio para toda la red."
     ],
-    tags: ["Fine Dining", "Asian Fusion", "Robata & Dim Sum", "Cocktail Bar"],
-    stats: { locations: "3 Restaurantes", capacity: "180 Asientos", foundation: "2018" }
+    tags: ["Bar Rest", "Express", "Dark Kitchen", "12 Sedes"],
+    stats: { locations: "12 Sedes", capacity: "Bar Rest & Express", foundation: "2018" }
   },
   lagringa: {
     id: "lagringa",
     name: "La Gringa",
     category: "urbana",
-    categoryLabel: "Street Food & Urban Casual",
+    categoryLabel: "Urbana & Casual · Burgers & Tacos",
     image: "assets/la-gringa/cover.jpg",
-    concept: "Cocina Urbana Latina & Street Food Elevado",
-    tagline: "4 locales operando desde 2020, especializados en tacos y street food urbano.",
-    description: "La Gringa opera 4 locales desde 2020. Tacos y street food urbano, con tortillas de maíz nixtamalizado hechas a mano y cortes ahumados a baja temperatura.",
+    concept: "Cruce Gastronómico de Burgers Americanas y Tacos Mexicanos",
+    tagline: "Ni solo hamburguesería ni solo taquería: el cruce de las dos es el punto.",
+    description: "La Gringa une dos tradiciones de comida callejera en una sola carta: hamburguesas de estilo americano y tacos mexicanos sobre tortillas artesanales. Un formato casual, desenfadado y sin poses pensado para el público joven-adulto que busca sabor contundente y ambiente relajado.",
     highlights: [
-      "Tacos en tortillas de maíz nixtamalizado hechas a mano al momento.",
-      "Cortes ahumados a baja temperatura con recetas de la casa.",
-      "Bar de margaritas y agaves de selección propia."
+      "Carta híbrida: smash burgers americanas y tacos mexicanos de receta propia.",
+      "Formato casual dining con servicio ágil, coctelería y cervezas.",
+      "Ambiente urbano sin poses, con operación optimizada para salón y delivery."
     ],
-    tags: ["Casual Dining", "Tacos & Mezcal", "Urban Latin", "High Energy"],
-    stats: { locations: "4 Locales", capacity: "120 Asientos", foundation: "2020" }
+    tags: ["Burgers Americanas", "Tacos Mexicanos", "Casual Dining", "Sin Poses"],
+    stats: { locations: "Caracas", capacity: "Salón & Delivery", foundation: "2020" }
   },
   annkara: {
     id: "annkara",
     name: "Annkara Arabian Food",
     category: "arabe",
-    categoryLabel: "Gastronomía del Medio Oriente",
+    categoryLabel: "Medio Oriente · Sazón Venezolana",
     image: "assets/annkara/cover.jpg",
-    concept: "La Magia y Hospitalidad del Medio Oriente",
-    tagline: "2 ubicaciones operando desde 2019, especializadas en cocina turco-árabe.",
-    description: "Annkara opera 2 ubicaciones desde 2019. Cocina turco-árabe con mezze, shawarma de cordero, kebabs y dulces preparados en cocina propia.",
+    concept: "Comida Árabe con Sazón y Mestizaje Venezolano",
+    tagline: "El mestizaje cultural entre las recetas árabes y el paladar venezolano.",
+    description: "Annkara adapta la cocina tradicional del Medio Oriente al gusto local venezolano. Ese mestizaje de sabores es su factor diferenciador en feria de centros comerciales, ofreciendo platos reconocibles, porciones generosas y precios competitivos para comensales curiosos y familias.",
     highlights: [
-      "Hummus con piñones tostados en aceite de oliva extravirgen.",
-      "Pan pita horneado frente al comensal en hornos refractarios.",
-      "Té y café turco servidos en vajilla de bronce."
+      "2 sedes en formato express: CC El Recreo y Sambil La Candelaria.",
+      "Shawarmas, mezze, falafel y platos mixtos con sazón y aderezos adaptados al gusto local.",
+      "Servicio de feria de alta rotación con estandarización de porciones y tiempos de despacho."
     ],
-    tags: ["Medio Oriente", "Mezze Bar", "Hospitalidad Auténtica", "Halal Certified"],
-    stats: { locations: "2 Ubicaciones", capacity: "140 Asientos", foundation: "2019" }
+    tags: ["Árabe con Sazón Local", "Formato Express", "Centros Comerciales", "2 Sedes"],
+    stats: { locations: "2 Sedes Express", capacity: "Ferias de CC", foundation: "2019" }
   },
   pushroll: {
     id: "pushroll",
     name: "Push Roll by Beijing",
     category: "asiatica",
-    categoryLabel: "Asian Grab & Go / Fast-Casual",
+    categoryLabel: "Fast Casual · Sushi On The Go",
     image: "assets/push-roll/cover.jpg",
-    concept: "Sushi & Temakis de Alta Gama para la Vida Urbana",
-    tagline: "6 puntos de venta operando desde 2021, formato grab & go de Beijing Asian Cuisine.",
-    description: "Push Roll opera 6 puntos de venta desde 2021, bajo el mismo estándar de cocina de Beijing Asian Cuisine. Temaki bar y hand-rolls preparados en minutos, para consumo en sitio o delivery.",
+    concept: "Sushi y Rolls para Llevar, Listos en Minutos",
+    tagline: "6 puntos activos entre Caracas y Lechería con la cocina de Beijing.",
+    description: "Push Roll lleva la calidad y recetas de Beijing Asian Cuisine a un formato rápido, práctico y portátil. Diseñado para un público joven y en movimiento, entrega sushi rolls, temakis y combos armados en minutos sin sacrificar la frescura del pescado ni la técnica oriental.",
     highlights: [
-      "Salmón certificado de pesca sostenible y atún aleta amarilla.",
-      "Formato Hand-Roll listo para consumir o delivery.",
-      "Salsas propias, trufada y ponzu, desarrolladas por el equipo de cocina."
+      "6 puntos de venta operativos distribuidos entre Caracas y Lechería.",
+      "Apalancado en la infraestructura, compras y cocina central de Beijing Asian Cuisine.",
+      "Formato grab & go con empaques diseñados para consumo inmediato o take-away."
     ],
-    tags: ["Grab & Go", "Temaki Bar", "Sushi Burrito", "Rápida Expansión"],
-    stats: { locations: "6 Puntos de Venta", capacity: "Express & Delivery", foundation: "2021" }
+    tags: ["Sushi On The Go", "Grab & Go", "Calidad Beijing", "6 Puntos"],
+    stats: { locations: "6 Puntos", capacity: "Caracas & Lechería", foundation: "2021" }
   },
   camposanto: {
     id: "camposanto",
     name: "Campo Santo",
     category: "huerta",
-    categoryLabel: "Siembra & Motor de Suministro Interno",
+    categoryLabel: "Siembra & Suministro · Productos del Campo",
     image: "assets/campo-santo/cover.jpg",
-    concept: "Suministro Agrícola Estratégico & Cadena de Valor",
-    tagline: "El factor diferenciador operativo que comienza desde la raíz.",
-    description: "En el dinámico y exigente escenario gastronómico de Caracas, el factor diferenciador operativo comienza desde la raíz. Campo Santo nace originalmente como una respuesta estratégica para abastecer las necesidades gastronómicas de los restaurantes pertenecientes a Master Group, entendiendo sus dinámicas económicas y ajustándose a sus necesidades para generar valor diferenciador dentro de las cadenas de suministro tradicionales.\n\nEntendemos que, en el mundo de los alimentos, la ejecución no solo debe ser precisa, sino también ágil y proactiva. Nuestra siembra se consolidó como el motor de suministro interno, perfeccionando un modelo de gestión donde el tiempo y la calidad son tratados como los activos más valiosos de la cadena de valor.",
+    concept: "Producción Agrícola, Suministro Interno y Vida de Campo",
+    tagline: "Motor de suministro para el holding y productos de la tierra para comer sano.",
+    description: "Campo Santo opera en dos dimensiones: hacia adentro, es el motor de siembra y suministro que abastece de hortalizas y vegetales frescos a los restaurantes de Master Group, reduciendo intermediarios y asegurando calidad desde la raíz. Hacia afuera, es una marca agrícola que conecta con quienes viven en el campo o buscan una alimentación sana, limpia y natural.",
     highlights: [
-      "Siembra propia consolidada como motor de suministro interno de Master Group.",
-      "Abastecimiento ágil, fresco y proactivo adaptado a las dinámicas de cada marca.",
-      "Modelo de gestión optimizado donde el tiempo y la calidad generan valor diferenciador."
+      "Cara interna: Siembra propia que abastece directamente a las marcas del grupo.",
+      "Cara de marca: Hortalizas, cosecha fresca y productos de la tierra para consumo saludable.",
+      "Control integral de la cadena: trazabilidad desde la semilla hasta la cocina."
     ],
-    tags: ["Siembra Propia", "Suministro Interno", "Cadena de Valor", "Control de Calidad"],
-    stats: { locations: "Producción Agrícola", capacity: "Suministro Directo", foundation: "Motor Interno" }
+    tags: ["Siembra Propia", "Suministro Interno", "Productos del Campo", "Alimentación Sana"],
+    stats: { locations: "Siembra Central", capacity: "Abastecimiento & Marca", foundation: "Producción Propia" }
   }
 };
 
